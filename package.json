@@ -1,0 +1,26 @@
+{
+  "name": "dbr-wasm-demo",
+  "version": "1.0.0",
+  "description": "Building JavaScript barcode reader with Dynamsoft Barcode Reader JS SDK.",
+  "main": "index.js",
+  "dependencies": {
+    "dbrjs": "^6.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dynamsoft-dbr/webassembly.git"
+  },
+  "keywords": [
+    "webassembly"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dynamsoft-dbr/webassembly/issues"
+  },
+  "homepage": "https://github.com/dynamsoft-dbr/webassembly#readme"
+}
