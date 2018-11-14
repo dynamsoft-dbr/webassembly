@@ -21,3 +21,7 @@ node index.js
 
 1. Deploy the project to IIS.
 2. Open `index.htm`in Chrome, Firefox, Edge, Safari or Opera. 
+
+## Blog
+[
+JavaScript Barcode SDK: Native vs. WebAssembly](https://www.codepool.biz/javascript-barcode-sdk-native-webassembly.html)
