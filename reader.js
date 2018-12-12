@@ -19,11 +19,11 @@ var mobileVideoWidth = 240,
 var isPC = true;
 
 var reader;
-c.onRuntimeInitialized = function () {
+Module.onRuntimeInitialized = function () {
   document.getElementById('anim-loading').style.display = 'none';
   buttonFile.disabled = false;
   buttonVideo.disabled = false;
-  reader = new c.BarcodeReaderWasm("t0068NQAAAKTSQDbEid8CTEeNluhTXi+h35G8R03xIHsyYNzZoa2GiU2a8y7s5Z1lfHsMW5dNyZmH6jQL51HUcoB5EhpDeDk=");
+  reader = new Module.BarcodeReaderWasm("t0068NQAAAJUlQ1oDc6zPWxOAQWn7kD9EGtgZFIqK/k3ULJC5ccG9Xe/lpVOxod82bm6nXxqQXUpC1zjRXU514mWw9XLE1JM=");
 };
 
 // https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/Base64_encoding_and_decoding
